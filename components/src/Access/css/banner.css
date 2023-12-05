@@ -1,0 +1,33 @@
+.slide {
+    position: relative;
+}
+
+
+.nivo-caption {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: rgba(32, 102, 152, 0.55);
+    width: 100%;
+    color: #fff;
+    padding: 20px 0;
+    z-index: 8;
+    opacity: .8;
+    -moz-opacity: .8;
+    filter: alpha(opacity=8);
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.text-banner {
+    font-size: 27px;
+}
+
+.text-banner span {
+    font-size: 42px;
+}
+
+.text-desc-banner {
+    font-size: 16px;
+    line-height: 30px;
+}
