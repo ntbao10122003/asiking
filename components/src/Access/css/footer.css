@@ -1,0 +1,117 @@
+footer {
+    background: #0788e2;
+    margin-top: 30px;
+}
+
+footer .foot-midd a {
+    color: #fff;
+}
+
+footer .foot-midd a:hover {
+    text-decoration: underline;
+}
+
+footer .foot-midd {
+    padding: 30px 0 5px;
+    color: #fff;
+}
+
+footer .foot-midd ul>li:first-child {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+ul.footer-list-unstyled>li:not(:first-child) {
+    line-height: 15px;
+    padding: 3px 0;
+    width: 50%;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+.footer-list-unstyled {
+    width: 50%;
+    float: left;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.footer-form {
+    margin: 15px 0;
+}
+
+footer .foot-midd .ctnr {
+    background: url(../images/footer-bg.png) no-repeat bottom right;
+    padding-bottom: 90px;
+    background-size: contain;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.footer-form__btn {
+    padding: 0 10px;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    border-radius: 2px;
+    font-size: 14px;
+    line-height: 34px;
+    border: 1px solid transparent;
+}
+
+footer .foot-btm {
+    background: #03335b;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.fotter-list__icon {
+    gap: 10px;
+}
+.foot-btm__left{
+    margin-bottom: 10px;
+}
+.footer__icon {
+    width: 34px;
+    height: 34px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {
+    footer .foot-midd .ctnr {
+        background-size: auto;
+    }
+
+    .foot-btm__left {
+        justify-content: left;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}

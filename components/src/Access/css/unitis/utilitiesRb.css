@@ -24,19 +24,23 @@ html {
 
   --bg-primary: white;
   --bg-second: black;
-  --bg-theme: rgb(242, 173, 68); /* color main */
+  --bg-theme: rgb(242, 173, 68);
+  /* color main */
   --bg-themesecond: rgb(62, 126, 194);
 
   --color-primary: white;
   --color-second: black;
-  --color-theme: rgb(242, 173, 68); /* color main */
+  --color-theme: rgb(242, 173, 68);
+  /* color main */
   --bg-themesecond: rgb(62, 126, 194);
 
-  --font-heading-family: 'Onest', sans-serif;
-  --font-body-family: 'Onest', sans-serif;
+  --font-heading-family: Roboto, sans-serif;
+  --font-body-family: Roboto, sans-serif;
 
-  --pd-distancesection-top: 100px; /* sử dụng cho khoảng cách giữ các section */
-  --pd-distancesection-bottom: 100px;  /* sử dụng cho khoảng cách giữ các section */
+  --pd-distancesection-top: 100px;
+  /* sử dụng cho khoảng cách giữ các section */
+  --pd-distancesection-bottom: 100px;
+  /* sử dụng cho khoảng cách giữ các section */
 
   --btn--yellow: rgb(242, 173, 68);
   --btn--black: black;
@@ -64,7 +68,7 @@ html {
     --heading-5: 2.2rem;
     --heading-6: 1.4rem;
     /* subtitle section */
-    --font-size-body: 1.4rem;
+    --font-size-body: 1.3rem;
     /* use for content */
   }
 }
@@ -82,13 +86,18 @@ html {
     --container-fluid-gutter: 15px;
     --gutter: 15px;
 
-    --heading-1: 3.1rem;/* title slide */
-    --heading-2: 2.8rem;/* title section */
-    --heading-3: 2.1rem;/* title posts primary */
-    --heading-4: 1.6rem;/* title posts second */
+    --heading-1: 3.1rem;
+    /* title slide */
+    --heading-2: 2.8rem;
+    /* title section */
+    --heading-3: 2.1rem;
+    /* title posts primary */
+    --heading-4: 1.6rem;
+    /* title posts second */
     --heading-5: 2.2rem;
-    --heading-6: 1.4rem;/* subtitle section */
-    --font-size-body: 1.4rem;
+    --heading-6: 1.4rem;
+    /* subtitle section */
+    --font-size-body: 1.3rem;
     /* use for content */
 
   }
@@ -328,11 +337,11 @@ button {
 .btn-second {
   color: var(--color-primary);
   background-color: var(--bg-theme);
-  
+
 }
 
-.cs-pointer{
-  cursor:pointer;
+.cs-pointer {
+  cursor: pointer;
 }
 
 /*------------------------------------*/
