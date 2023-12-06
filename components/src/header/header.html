@@ -514,21 +514,39 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <!-- end slick -->
     <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const menuAll = document.querySelectorAll('.header-sub > li');
+        // document.addEventListener('DOMContentLoaded', () => {
+        //     const menuAll = document.querySelectorAll('.header-sub > li');
 
-            menuAll.forEach((menu) => {
-                const img = menu.querySelector('img');
+        //     menuAll.forEach((menu) => {
+        //         const img = menu.querySelector('img');
 
-                menu.addEventListener('mouseenter', () => {
-                    // Trước khi thêm class 'active', hãy kiểm  xem có class 'active' nào khác không
-                    const activeImg = document.querySelector('.header-sub li img.active');
-                    if (activeImg) {
-                        activeImg.classList.remove('active');
-                    }
+        //         menu.addEventListener('mouseenter', () => {
+        //             // Trước khi thêm class 'active', hãy kiểm  xem có class 'active' nào khác không
+        //             const activeImg = document.querySelector('.header-sub li img.active');
+        //             if (activeImg) {
+        //                 activeImg.classList.remove('active');
+        //             }
 
-                    img.classList.add('active');
-                });
+        //             img.classList.add('active');
+        //         });
+        //     });
+        // });
+        const listItems = document.querySelectorAll('.header-sub li');
+        const contents = document.querySelectorAll('.header-sub li img');
+
+        listItems.forEach((item, index) => {
+            item.addEventListener('mouseover', () => {
+                // Bỏ active khỏi tất cả các phần tử li
+                listItems.forEach(li => li.classList.remove('active'));
+
+                // Kích hoạt phần tử li hiện tại
+                item.classList.add('active');
+
+                // Ẩn tất cả nội dung
+                contents.forEach(content => content.classList.remove('active'));
+
+                // Hiển thị nội dung tương ứng bằng cách dựa vào vị trí (index)
+                contents[index].classList.add('active');
             });
         });
         //menu mobile 

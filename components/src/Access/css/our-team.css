@@ -1,0 +1,13 @@
+.team-wrap{
+    background: #f7fafc;
+    border-radius: 2px;
+    padding: 20px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+.team__desc span{
+    margin: 20px 0;
+}
+.team-image {
+    margin: 0 -15px;
+}

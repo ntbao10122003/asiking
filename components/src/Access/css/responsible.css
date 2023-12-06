@@ -1,0 +1,30 @@
+.responsible-wrap {
+    background: #f7fafc;
+    border-radius: 2px;
+    padding: 20px;
+    line-height: 2.5;
+    margin-bottom: 20px;
+}
+
+.responsible__title {
+    margin-top: 20px;
+    color: rgb(0, 153, 255);
+}
+
+.responsible-wrap a {
+    color: #1a6299;
+}
+
+.responsible-wrap a:hover {
+    text-decoration: underline;
+}
+
+ul.responsible-menu li {
+    list-style: inherit;
+    margin-left: 50px;
+}
+
+ol.responsible-menu li {
+    list-style: auto;
+    padding-left: 10px;
+}

@@ -1,0 +1,31 @@
+.news-view {
+    background: #f7fafc;
+    border-radius: 2px;
+    padding: 20px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.about-img {
+    overflow: hidden;
+}
+
+.overview-view {
+    line-height: 22px;
+    text-align: justify;
+    padding: 0 20px 15px;
+}
+
+.about-king__desc {
+    font-size: 12px;
+
+}
+
+.about-king__title {
+    font-size: calc(var(--heading-5) - 4px);
+}
+
+.news-view>.about-king__title,
+.about-king__bottom {
+    margin-top: 20px;
+}

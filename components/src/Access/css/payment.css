@@ -1,0 +1,14 @@
+.payment-wrap {
+    background: #f7fafc;
+    border-radius: 2px;
+    padding: 20px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.payment__desc ,.payment-mr{
+    margin-top: 20px;
+}
+.payment-wrap a {
+    color: #1a6299;
+}
