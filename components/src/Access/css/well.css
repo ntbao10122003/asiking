@@ -71,4 +71,222 @@ h2.well-r-title {
 
 .travel-themes .clm.item-destinion > .inner-dest a {
     position: relative;
+    font-size: 14px;
+}
+
+.travel-themes .clm.item-destinion > .inner-dest a strong {
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.well-left-all {
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.box-mcl-left .box-head {
+    background: #377eb4;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.box-mcl-left .box-body.graybg-left {
+    padding: 15px;
+    background: #eae9e8;
+}
+
+.form-group-graybg {
+    margin-bottom: 15px;
+}
+
+.box-mcl-left .graybg-left .form-group-graybg {
+    font-size: 13px;
+    border-radius: 2px;
+}
+.box-mcl-left .graybg-left .form-group-graybg .form-control-slect {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+    
+
+.graybg-left-btn {
+    justify-content: right;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: right;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+}
+
+.graybg-left-btn button {
+    color: #fff;
+    background-color: #de2b02;
+    border-color: #d43f3a;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+
+
+
+
+.well-left-all {
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.box-mcl-left .box-head {
+    background: #377eb4;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.box-mcl-left .box-body.graybg-left {
+    padding: 15px;
+    background: #eae9e8;
+}
+
+.form-group-graybg {
+    margin-bottom: 15px;
+}
+
+.box-mcl-left .graybg-left .form-group-graybg {
+    font-size: 13px;
+    border-radius: 2px;
+}
+.box-mcl-left .graybg-left .form-group-graybg .form-control-slect {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+    
+
+.graybg-left-btn {
+    justify-content: right;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: right;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+}
+
+.graybg-left-btn button {
+    color: #fff;
+    background-color: #de2b02;
+    border-color: #d43f3a;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+
+.mapbook-left {
+    background: #f9b013;
+    margin: 10px 0;
+}
+
+.mapbook-left .mapbook-top {
+    display: block;
+    background: #1077c6;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+}
+
+.mapbook-midd {
+    padding: 10px 10px 0 0;
+}
+
+.text-mapb-mid {
+    overflow: hidden;
+    font-size: 34px;
+    padding: 20px 0 0 20px;
+    width: 30%;
+    color: #1a6299;
+}
+
+.mapbook-midd {
+    display: flex;
+}
+
+img.pull-right {
+    float: right!important;
+    width: 70%;
+}
+
+.btm-bottom-mapbook {
+    background: #089ec3;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 24px;
 }
