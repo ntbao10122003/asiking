@@ -1,0 +1,74 @@
+.well-right {
+    border: 1px solid #377eb4;
+    padding: 15px;
+    border-radius: 2px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+h2.well-r-title {
+    margin: 0 0 10px;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.well-content-right {
+    line-height: 20px;
+    padding-bottom: 50px;
+}
+
+.btn-well {
+    text-align: center;
+}
+
+.btn-well a {
+    color: #fff;
+    background-color: #de2b02;
+    border-color: #d43f3a;
+    padding: 10px 16px;
+    font-size: 18px;
+   line-height: 1.3333333; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.travel-themes .box-destinationList-row .item-destinion {
+    float: unset;
+}
+
+.travel-themes .box-destinationList-row {
+    display: flex !important;
+}
+
+.travel-themes .clm.item-destinion:first-child > .inner-dest .img-dest-list img {
+    height:257px;
+}
+.travel-themes .clm.item-destinion > .inner-dest .img-dest-list img {
+    height:257px;
+}
+.travel-themes .inner-dest a .tt {
+    position: absolute;
+    top: 50%;
+}
+
+.travel-themes .inner-dest a .tt {
+    background: rgba(55, 126, 180, 0.5);
+}
+.travel-themes .img-dest-list {
+    display: block;
+}
+
+.travel-themes .clm.item-destinion > .inner-dest a {
+    position: relative;
+}
